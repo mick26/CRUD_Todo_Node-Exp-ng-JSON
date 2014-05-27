@@ -1,0 +1,14 @@
+{
+  "name": "Node-Express-Angular-JSON-Todo",
+  "version": "0.0.1",
+  "description": "App demonstrating CRUD operations to JSON Files contents.",
+  "main": "node server.js",
+  "author": "Michael Cullen",
+  "dependencies": {
+    "express": "4.2.0",
+    "morgan": "~1.0.1",
+    "body-parser": "~1.0.2",
+    "fs-extra": "~0.9.1",
+    "underscore": "~1.6.0"
+  }
+}
