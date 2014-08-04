@@ -57,17 +57,6 @@ function saveDB () {
 }
 
 
-function saveToEmptyDB () {
-//Used Synchronous function which is blocking but ensures function completes fully to avoid problems
-//due to reading & writing from/to a text file as opposed to a database
-	fs.outputJsonSync(DATA_FILE, DATA)
-}
-
-
-
-
-
-
 //console.log("DATA -> " + JSON.stringify(DATA));	//TEST
 
 /*****************************************************************/
